@@ -991,7 +991,7 @@ String transcribeAudioWhisper(int16_t* audioBuffer, int sampleCount) {
 
 // --- HLAVNÍ METODA NAHRÁVÁNÍ A VYHLEDÁNÍ ---
 void recordAndSearch() {
-  drawLoadingScreen("Mluvte ted...", "Řikejte dotaz do mikrofonu...");
+  drawLoadingScreen("Mluvte teď...", "Řikejte dotaz do mikrofonu...");
   soundRecordStart();
 
   int maxSamples = 16000 * 5; // Až 5 sekund záznamu
